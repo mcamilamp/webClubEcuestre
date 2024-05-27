@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     switch (selectedValue) {
       case "admin":
-        redirectUrl = "inicioAdmin.html";
+        redirectUrl = "../Components/admin/inicioAdmin.html";
         break;
       case "socio":
-        redirectUrl = "inicioSocio.html";
+        redirectUrl = "../Components/socio/inicioSocio.html";
         break;
       case "public":
-        redirectUrl = "inicioPublic.html";
+        redirectUrl = "../Components/public/inicioPublic.html";
         break;
       default:
         alert("Por favor, seleccione un rol válido.");
