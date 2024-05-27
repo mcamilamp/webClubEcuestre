@@ -1,0 +1,39 @@
+:root {
+  --colorBase: #fff5ec;
+  --amarillo: #f4d548;
+  --verde: #269577;
+  --fuentePrincipal: "Squada One";
+  --fuenteSecundaria: "Nunito";
+}
+
+.squada-one-regular {
+  font-family: "Squada One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier > {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: var(--fuenteSecundaria);
+}
+
+a {
+    font-size: 1.4rem;
+    font-family: var(--fuenteSecundaria);
+  }
+}
