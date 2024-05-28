@@ -29,7 +29,6 @@
 .button:hover {
   background-color: var(--colorBase);
   color: var(--verde);
-  transition-duration: 0.5s;
 }
 
 .rol option:hover {

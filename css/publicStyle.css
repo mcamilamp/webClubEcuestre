@@ -1,2 +1,53 @@
-.main {
+.inicio {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 4rem;
+  margin-left: 4rem;
+}
+
+#btn {
+  background-color: var(--amarillo);
+  text-decoration: none;
+  color: var(--colorBase);
+  font-weight: bold;
+  padding: 0.9rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+#btn:hover {
+  background-color: var(--verde);
+  color: var(--colorBase);
+}
+
+.img-inicio {
+  border-radius: 2rem;
+}
+
+#text-bienvenido {
+  color: var(--verde);
+  font-size: 6.5rem;
+  margin-bottom: 1rem;
+}
+
+#p-contacto {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#texto {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#texto2 {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid gray;
+  width: 24rem;
 }
