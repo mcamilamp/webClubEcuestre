@@ -106,14 +106,16 @@ footer .credit {
   font-style: normal;
 }
 
-.nunito-<uniquifier > {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-.inicio {
+/*
+.nunt<uniquifier > {
+  font-amily: "Nunito", sans-serif;
+  font-ptical-sizing: auto;
+  font-eight: <weight>;
+  font-tyle: normal;
+}
+*/
+.iniio {
   display: grid;
   grid-template-columns: repeat(2, auto);
   padding: 4rem;
