@@ -1,0 +1,57 @@
+.login {
+  background-color: var(--amarillo);
+  border-radius: 2rem;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 12rem;
+  text-align: center;
+}
+
+#Textlogin {
+  font-family: var(--fuentePrincipal);
+  font-size: 7rem;
+  color: var(--colorBase);
+  -webkit-text-stroke: 0.1px black;
+}
+
+.button {
+  padding: 0.9rem;
+  display: block;
+  background-color: var(--verde);
+  border-radius: 2rem;
+  max-width: 10rem;
+  text-decoration: none;
+  color: var(--colorBase);
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: var(--colorBase);
+  color: var(--verde);
+}
+
+.rol option:hover {
+  background-color: var(--amarillo);
+}
+
+#idRol {
+  font-weight: 800;
+  color: var(--colorBase);
+  font-size: 2.3rem;
+}
+
+.rol {
+  margin-bottom: 2rem;
+  border: 2px solid var(--verde);
+  border-radius: 2rem;
+  padding: 1rem 9rem;
+  font-size: 1.4rem;
+  font-family: var(--fuenteSecundaria);
+  background-color: var(--colorBase);
+}
+
+.valueRol {
+  font-size: 1.4rem;
+  font-family: var(--fuenteSecundaria);
+}
