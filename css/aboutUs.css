@@ -1,35 +1,36 @@
 .gridContainer {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-gap: 1rem 5rem;
-    margin-right: 10rem;
-    margin-left: 5rem;
-    padding-top: 6rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 1rem 4rem;
+  margin: 0 10rem 5rem 6rem;
+  padding-top: 4rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nanum-gothic-regular {
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: justify;
-    font-size: medium;
+  font-family: var(--fuenteSecundaria);
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  font-size: 1.7rem;
+  line-height: 1.6;
 }
-
-.anton-regular {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 #titleAboutUs {
-    text-align: center;
-    color: var(--verde);
-    font-size: 5rem;
-    margin-top: 0;
+  text-align: center;
+  color: var(--verde);
+  font-size: 6rem;
+  margin-top: 0;
 }
 
 .imgAboutUs {
-    width: 100%;
-    border-radius: 2rem;
+  width: 90%;
+  border-radius: 2rem;
+  margin-left: 2rem;
 }
