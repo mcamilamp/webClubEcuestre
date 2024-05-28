@@ -1,6 +1,7 @@
 :root {
   --colorBase: #fff5ec;
   --amarillo: #f4d548;
+  --marron: #dfc88f;
   --verde: #269577;
   --fuentePrincipal: "Squada One";
   --fuenteSecundaria: "Nunito";
@@ -29,7 +30,8 @@ a {
   font-family: var(--fuenteSecundaria);
 }
 
-header {
+header,
+footer {
   background: var(--amarillo);
   padding: 2rem 9%;
   display: flex;
@@ -39,7 +41,8 @@ header {
   border-radius: 0 0 2rem 2rem;
 }
 
-header .logo {
+header .logo,
+footer .logo {
   font-size: 5rem;
   color: var(--verde);
   font-family: var(--fuentePrincipal);
@@ -47,7 +50,8 @@ header .logo {
   text-decoration: none;
 }
 
-header .nav {
+header .nav,
+footer .nav {
   display: flex;
 }
 
@@ -59,8 +63,41 @@ header .nav a {
   font-weight: bold;
 }
 
-header .nav a:hover {
+header .nav a:hover,
+footer .nav a:hover {
   color: var(--colorBase);
+}
+
+footer {
+  background-color: var(--marron);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .nav a {
+  padding: 0 1.5rem;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+footer .nav {
+  justify-content: center;
+}
+
+footer .credit {
+  border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .squada-one-regular {
@@ -69,12 +106,78 @@ header .nav a:hover {
   font-style: normal;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 1000
-
 .nunito-<uniquifier > {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.inicio {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 4rem;
+  margin-left: 4rem;
+}
+
+@media (min-width: 768px) {
+  .inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+#btn {
+  background-color: var(--amarillo);
+  text-decoration: none;
+  color: var(--colorBase);
+  font-weight: bold;
+  padding: 0.9rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+#btn:hover {
+  background-color: var(--verde);
+  color: var(--colorBase);
+}
+
+.img-inicio {
+  border-radius: 2rem;
+}
+
+#text-bienvenido {
+  color: var(--verde);
+  font-size: 6.5rem;
+  margin-bottom: 1rem;
+}
+
+#p-contacto {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#texto {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#texto2 {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid gray;
+  width: 24rem;
+}
+
+.fas.fa-paper-plane {
+  font-size: 2rem;
+  color: var(--colorBase);
+  margin-left: 1rem;
+  vertical-align: middle;
 }
