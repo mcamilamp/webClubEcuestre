@@ -1,0 +1,48 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem 6rem;
+    margin-right: 13rem;
+    margin-left: 8rem;
+    padding-top: 4rem;
+    grid-gap: 4rem;
+}
+
+.gridContainerSmall {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:  rgb(243, 222, 151);
+    border-radius: 2rem;
+}
+
+.gridFrac {
+    height: 20rem;
+    background-color:  rgb(243, 222, 151);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHorses {
+    width: 16rem;
+    border-radius: 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.gridBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
