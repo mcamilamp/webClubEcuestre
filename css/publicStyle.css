@@ -51,3 +51,10 @@ input {
   border: 2px solid gray;
   width: 24rem;
 }
+
+#sendMessageIcon {
+  padding: 1rem;
+  margin-bottom: -2.6rem;
+  width: 4rem;
+  height: 4rem;
+}
