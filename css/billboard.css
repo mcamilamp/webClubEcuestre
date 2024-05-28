@@ -1,48 +1,77 @@
 .gridContainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1rem 6rem;
-    margin-right: 13rem;
-    margin-left: 8rem;
-    padding-top: 4rem;
-    grid-gap: 4rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem 6rem;
+  margin-right: 13rem;
+  margin-left: 8rem;
+  grid-gap: 4rem;
+  padding: 4rem 0 5rem 0;
 }
 
 .gridContainerSmall {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color:  rgb(243, 222, 151);
-    border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(243, 222, 151);
+  border-radius: 2rem;
 }
 
 .gridFrac {
-    height: 20rem;
-    background-color:  rgb(243, 222, 151);
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 20rem;
+  background-color: rgb(243, 222, 151);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgHorses {
-    width: 16rem;
-    border-radius: 2rem;
+  width: 16rem;
+  border-radius: 2rem;
 }
 
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+  font-size: 2rem;
 }
 
 .gridBody {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#btn2 {
+  padding: 0.9rem;
+  display: block;
+  background-color: var(--verde);
+  border-radius: 1rem;
+  width: 15rem;
+  text-decoration: none;
+  color: var(--colorBase);
+  margin: 0 auto;
+  font-weight: bolder;
+  text-align: center;
+}
 
+#btn2:hover {
+  background-color: var(--colorBase);
+  color: var(--verde);
+}
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+p {
+  margin-top: 0;
+}
 
+span {
+  font-weight: bolder;
+}
