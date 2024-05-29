@@ -1,0 +1,92 @@
+html {
+  background-color: white;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem 4rem;
+  margin: 3rem 7rem 7rem 7rem;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-register {
+  background-color: white;
+  border: 10px solid #dddcdc;
+  width: 40rem;
+  padding: 2rem;
+  text-align: center;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.doc,
+label,
+input,
+p {
+  font-family: var(--fuenteSecundaria);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--verde);
+}
+
+select,
+input {
+  border: none;
+  background-color: #ececec;
+  width: 20rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.boton {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: var(--amarillo);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--colorBase);
+  font-weight: bolder;
+}
+
+.boton:hover {
+  background-color: var(--verde);
+}
+
+.container-main h1 {
+  font-family: var(--fuenteSecundaria);
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+span {
+  color: var(--verde);
+  font-family: var(--fuentePrincipal);
+  font-size: 7rem;
+}
+
+#text {
+  font-size: 1.8rem;
+}
