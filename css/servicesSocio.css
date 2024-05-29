@@ -1,0 +1,63 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-template-rows: 40rem 44rem;
+    margin: 5% 0;
+    grid-gap: 5rem;
+    justify-content: center;
+}
+
+.gridContainerSmall {
+    display: grid;
+    grid-template-rows: 40% auto;
+    background-color: #ececec;
+}
+
+
+.nanum-gothic-regular {
+    font-family: var(--fuenteSecundaria);
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+#titleServices {
+    text-align: center;
+    color: var(--verde);
+    font-size: 6rem;
+    margin: 2rem 0 0 6%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.title {
+    margin: 3rem 2rem;
+}
+
+.gridBody {
+    margin: 0rem 2rem;
+    text-align: justify;
+}
+
+.imgHorses {
+    width: 67%;
+    height: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.contImg {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.arrowImg {
+    cursor: pointer;
+}
