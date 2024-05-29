@@ -1,0 +1,50 @@
+.square {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 273.2px;
+    margin: 3% 0;
+    justify-content: center;
+    grid-gap: 10rem;
+}
+
+.squareSon {
+    display: grid;
+    background-color: #ffeea1;
+}
+
+.squareSonSon {
+    margin: 2rem;
+    background-color: white;
+}
+
+.divSqBody {
+    margin-top: 30%;
+}
+
+.squareBody {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    color: 000000;
+}
+
+.divBtn {
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnGetTraining {
+    padding: 0.7rem 3.5rem;
+    border-radius: 2rem;
+    font-size: medium;
+    color: var(--colorBase);
+    background-color: #269577;
+    cursor: pointer;
+}
+
+#title {
+    margin-left: 5%;
+    font-size: xx-large;
+    text-decoration: underline;
+}
