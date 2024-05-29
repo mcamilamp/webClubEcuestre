@@ -1,6 +1,7 @@
 :root {
   --colorBase: #fff5ec;
   --amarillo: #f4d548;
+  --amarilloClaro: #ffeea1;
   --marron: #dfc88f;
   --verde: #269577;
   --fuentePrincipal: "Squada One";
@@ -27,6 +28,10 @@ h3 {
 
 a {
   font-size: 1.4rem;
+  font-family: var(--fuenteSecundaria);
+}
+
+button {
   font-family: var(--fuenteSecundaria);
 }
 
