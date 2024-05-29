@@ -1,0 +1,36 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-template-rows: 40rem 40rem;
+    margin: 5% 0;
+    grid-gap: 5rem;
+    justify-content: center;
+}
+
+.gridContainerSmall {
+    display: grid;
+    grid-template-rows: 40% auto;
+    background-color: #ececec;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.title {
+    margin: 3rem 2rem;
+}
+
+.gridBody {
+    margin: 0rem 2rem;
+    text-align: justify;
+}
+
+.imgHorses {
+    width: 67%;
+    height: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
