@@ -1,0 +1,85 @@
+#aa {
+  background-color: white;
+}
+
+blockquote {
+  font-family: "Nunito";
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.lodge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+.lodge img {
+  width: 25rem;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--amarilloClaro);
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#btnn {
+  margin-top: 1rem;
+  background-color: var(--verde);
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  width: 14rem;
+  text-decoration: none;
+}
+
+#btnn:hover {
+  background-color: var(--amarillo);
+  color: white;
+}
+
+.nutrition {
+  background-color: #ececec;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  text-align: center;
+}
+
+.nut {
+  background-color: white;
+  padding: 3rem;
+  border: 5px solid var(--amarilloClaro);
+}
+
+h3 {
+  font-size: 2.8rem;
+  color: var(--verde);
+}
