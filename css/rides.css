@@ -1,0 +1,46 @@
+#aa {
+  background-color: white;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 4rem;
+  text-align: center;
+}
+
+.info {
+  background-color: white;
+  border: 10px solid var(--amarilloClaro);
+  height: 15rem;
+}
+
+#text {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+#btn {
+  width: 20rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+blockquote {
+  font-family: var(--fuenteSecundaria);
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+span {
+  font-family: var(--fuentePrincipal);
+  font-size: 3.7rem;
+  color: var(--verde);
+}
+
+footer {
+  margin-top: 10rem;
+}
