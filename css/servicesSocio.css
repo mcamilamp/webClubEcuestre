@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+.main {
+  text-align: center;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -31,4 +35,18 @@ h3 {
 
 p {
   margin: 2rem 1rem 0rem 1rem;
+}
+
+.btnnnn {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: var(--amarillo);
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.botonnn {
+  margin-bottom: 5rem;
 }
