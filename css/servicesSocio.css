@@ -1,63 +1,34 @@
-.gridContainer {
-    display: grid;
-    grid-template-columns: 27% 27% 27%;
-    grid-template-rows: 40rem 44rem;
-    margin: 5% 0;
-    grid-gap: 5rem;
-    justify-content: center;
+#services {
+  background-color: white;
 }
 
-.gridContainerSmall {
-    display: grid;
-    grid-template-rows: 40% auto;
-    background-color: #ececec;
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: 4rem;
 }
 
-
-.nanum-gothic-regular {
-    font-family: var(--fuenteSecundaria);
-    font-weight: 400;
-    font-style: normal;
-    text-align: justify;
-    font-size: 1.7rem;
-    line-height: 1.6;
+.row > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #ececec;
 }
 
-#titleServices {
-    text-align: center;
-    color: var(--verde);
-    font-size: 6rem;
-    margin: 2rem 0 0 6%;
+.row img {
+  max-width: 100%;
+  height: auto;
+  width: 80%;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
-    background-color: #ececec;
+h3 {
+  font-size: 3rem;
+  color: var(--verde);
 }
 
-.title {
-    margin: 3rem 2rem;
-}
-
-.gridBody {
-    margin: 0rem 2rem;
-    text-align: justify;
-}
-
-.imgHorses {
-    width: 67%;
-    height: 100%;
-    border-radius: 2rem;
-    margin-top: 2rem;
-}
-
-.contImg {
-    margin-bottom: 0;
-    display: flex;
-    justify-content: right;
-}
-
-.arrowImg {
-    cursor: pointer;
+p {
+  margin: 2rem 1rem 0rem 1rem;
 }
