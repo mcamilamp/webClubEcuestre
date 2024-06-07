@@ -43,6 +43,12 @@
     cursor: pointer;
 }
 
+.btnGetTraining:hover {
+    color: #f0e47a;
+    background-color: #000000;
+    transition-duration: 1.1s;
+}
+
 #title {
     margin-left: 5%;
     font-size: xx-large;
