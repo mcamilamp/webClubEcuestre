@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html id="aa" lang="en">
+<html id="sell" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/rides.css" />
+    <link rel="stylesheet" href="../../css/sellHorse.css" />
     <link rel="stylesheet" href="../../css/normalize.css" />
     <link rel="stylesheet" href="../../css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Squada+One&display=swap"
       rel="stylesheet"
     />
-    <title>Paseos y Cabalgatas</title>
+    <title>Comprar ejemplares</title>
   </head>
   <body>
     <header>
@@ -26,19 +26,54 @@
       </nav>
     </header>
 
-    <blockquote>
-      Reserva tu paseo hoy y vive la magia de la <br />
-      <span>equitación</span> en su máxima expresión
-    </blockquote>
-    <div class="main">
+    <div class="container-form">
       <div class="info">
-        <p id="text">Sábado: 7am - 9am</p>
-        <button id="btn">Adquirir</button>
+        <h1>¡Vende tus Ejemplares con Nosotros!</h1>
+        <p>Beneficios de vender con nosotros:</p>
+        <ul>
+          <li>Amplia tu clientela</li>
+          <li>Soporte profesional</li>
+          <li>Proceso sencillo</li>
+        </ul>
       </div>
-      <div class="info">
-        <p id="text">Domingo: 4pm - 6pm</p>
-        <button id="btn">Adquirir</button>
-      </div>
+
+      <form class="form">
+        <h2>Ingrese los datos</h2>
+        <label for="name"></label>
+        <input type="text" id="name" / placeholder="Nombre del caballo">
+
+        <label for="breed"></label>
+        <input
+          type="text"
+          id="breed"
+          name="breed"
+          required
+          placeholder="Raza"
+        />
+
+        <label for="age"></label>
+        <input type="number" id="age" name="age" required placeholder="Edad" />
+
+        <label for="price"></label>
+        <input
+          type="text"
+          id="price"
+          name="price"
+          required
+          placeholder="Precio"
+        />
+
+        <label for="description"></label>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          required
+          placeholder="Descripción"
+        ></textarea>
+
+        <a class="btn" href="">Publicar Ejemplar</a>
+      </form>
     </div>
 
     <footer>

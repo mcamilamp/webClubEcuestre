@@ -1,0 +1,47 @@
+html {
+  font-family: var(--fuenteSecundaria);
+}
+
+main {
+  margin: 8rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.schedule-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-left: 12rem;
+  margin-bottom: 3rem;
+}
+.schedule-table th,
+.schedule-table td {
+  padding: 2rem;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+.schedule-table th {
+  background-color: #f2f2f2;
+}
+
+#h1 {
+  font-size: 3rem;
+  color: var(--verde);
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 1rem;
+  padding: 1rem 5rem;
+  border: none;
+  background-color: var(--amarillo);
+}
+
+.btn:hover {
+  background-color: var(--verde);
+}
